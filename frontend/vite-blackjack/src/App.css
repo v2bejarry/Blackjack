@@ -1,0 +1,94 @@
+#mainPageTitle{
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#enterGameNameTitle {
+  color:blue;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#enterGameName {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 10px;
+  border: 2px solid rgb(0, 0, 255);
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #000000;
+  resize: none;
+  transition: 0.3s;
+}
+
+#playerName {
+  color:blue;
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#addNewPlayer {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 10px;
+  border: 2px solid rgb(0, 0, 255);
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #000000;
+  resize: none;
+  transition: 0.3s;
+}
+
+#listeDesJoueursEnregistrés {
+  color:blue;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#bonttonConfirmerNomPartie {
+  top: 52%;
+  left: 120%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  width: 200px;
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  border: 3px solid #252525;
+  overflow: hidden;
+  border-radius: 30px;
+  color: #333;
+  transition: all 0.5s ease-in-out;
+}
+
+#boutonConfirmerJoueurs {
+  top: 32%;
+  left: 120%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  width: 200px;
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  border: 3px solid #252525;
+  overflow: hidden;
+  border-radius: 30px;
+  color: #333;
+  transition: all 0.5s ease-in-out;
+}
