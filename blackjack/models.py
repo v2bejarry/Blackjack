@@ -10,7 +10,3 @@ class Game(models.Model):
     name = models.CharField(max_length=200, default = 'name')
     turn = models.IntegerField()
     gameEnd = models.BooleanField(default = False)
-
-def winners():
-    Player.score < 21
-    return winners

@@ -3,52 +3,69 @@ import './App.css';
 function App() {
   return (
     <div>
-      <h1 id= "mainPageTitle">Blackjack</h1>
-
-      <label
-      id="enterGameNameTitle" 
-      for="nom de partie">
-        Nom de Partie</label>
-
+      <h1 
+      id= "mainPageTitle">
+      Blackjack
+      </h1>
+    <div>
+      <div>
+        <label
+          id="enterGameNameTitle" 
+          for="nom de partie">
+          Nom de Partie
+        </label>
+      </div>
       <textarea 
-      id="enterGameName" 
-      placeholder="Ecrivez le nom de votre partie" 
-      name = "écrivez votre question"   
-      rows={4} 
-      cols={35}>
+        id="enterGameName" 
+        placeholder="Ecrivez le nom de votre partie" 
+        name = "écrivez votre question"   
+        rows={4} 
+        cols={35}>
       </textarea>
 
       <button
-      id = "bonttonConfirmerNomPartie">
+        id = "bonttonConfirmerNomPartie">
         confirmer
       </button>
+    </div>
 
-      <label
-      id="playerName" 
-      for="playerName">
+    <div>
+      <div><label
+        id="playerName" 
+        for="playerName">
         Nom du joueur
-        </label>
-
+      </label>
+    </div>
       <textarea 
-      id="addNewPlayer" 
-      placeholder="Ajouter le nom du joueur" 
-      name = "écrivez votre question"   
-      rows={4} 
-      cols={35}>
+        id="addNewPlayer" 
+        placeholder="Ajouter le nom du joueur" 
+        name = "écrivez votre question"   
+        rows={4} 
+        cols={35}>
       </textarea>
 
       <button 
-      id = "boutonConfirmerJoueurs">
+        id = "boutonConfirmerJoueurs">
         confirmer
+      </button>
+    </div>
+
+      <label 
+        id = "listeDesJoueursEnregistrés" >
+        Liste des joueurs enregistrés
+      </label>
+
+      <div>
+        <label>
+          Emplacment du tableau
+        </label>
+      </div>
+
+      <div>
+        <button id = "lunchGameButton">
+          Lancer la partie
         </button>
-
-
-    <label 
-      id = "listeDesJoueursEnregistrés" >
-      Liste des joueurs enregistrés
-    </label>
-
-    <label>Liste de joueurs à mettre à jour à chaque ajout à partir de la bdd</label>
+      </div>
     </div>
   );
 }
